@@ -5,14 +5,15 @@
 /**
  * main - Entry Point
  *
- * Descriptian: A C program that prints with put function
+ * Descriptian: Print the value pf n status:
+ * 		greater than, is zero is not less than 6.
  *
  * Return: Always 0 (sucsess)
 */
 
 int main(void)
 {
-	int n;
+	int n ,digit;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
