@@ -1,18 +1,19 @@
-#include"main.h"
+#include "main.h"
 
 /**
- * main - Entry Point
- *
- * Descriptian:  print_alphabet
- *
- * Return: Always 0 (sucsess)
-*/
-
+ * print_alphabet - prints the alphabet, in lowercase, followed by a new line
+ */
 void print_alphabet(void)
 {
-	int ch;
-		for (ch = 'a' ; ch = 'z' ; ch++)
+	char ch;
+
+	ch = 'a';
+
+	while (ch <= 'z')
+	{
 		_putchar(ch);
+		ch++;
+	}
+
 	_putchar('\n');
 }
-
