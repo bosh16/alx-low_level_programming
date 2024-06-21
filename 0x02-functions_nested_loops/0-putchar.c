@@ -1,4 +1,4 @@
-#include<stdio.h>
+
 
 /**
  * main - Entry Point
@@ -8,6 +8,7 @@
  * Return: Always 0 (sucsess)
 */
 
+#include<stdio.h>
 int main(void)
 {
 printf("_putchar\n");
